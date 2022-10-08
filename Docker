@@ -1,0 +1,6 @@
+FROM alpine 
+Label Benfadhel Waael
+RUN apk add openjdk11
+RUN apk add maven
+EXPOSE 8085
+CMD "java --version "
